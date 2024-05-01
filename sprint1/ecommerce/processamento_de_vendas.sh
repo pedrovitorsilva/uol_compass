@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Começando o processamento das vendas...
+
