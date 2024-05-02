@@ -4,7 +4,7 @@ O objetivo da sprint era exercitar os comandos Linux aprendidos, através da cri
 
 ## Realização do Desafio
 
-Os comandos foram executados dentro do diretório ./sprint1/desafio/ecommmere
+Os comandos foram executados dentro do diretório `./sprint1/desafio/ecommmerce`.
 
 ### Arquivo de Processamento:
 
@@ -52,3 +52,14 @@ Para permitir a execução do script, execute o seguinte comando:
 OU 
 
 ` sh consolidador_de_processamento_de_vendas.sh `
+
+## Evidências
+
+Ao executar o comando `grep CRON /var/log/syslog`, observei que de fato, o script foi automatizado, e executado na hora definida, conforme imagem abaixo:
+
+![Imagem 1 - Automação](./evidencias/sample1_automacao.png)
+
+
+Ao executar os comandos .sh de processamento e consolidação, também observei que eles funcionaram corretamente, como mostra a imagem a seguir:
+
+![Imagem 2 - Execução dos Scripts](./evidencias/sample2_execucao.png)
