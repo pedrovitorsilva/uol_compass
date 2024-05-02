@@ -2,9 +2,11 @@
 
 ![Logo da UOL Compass](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/LogoCompasso-positivo.png/200px-LogoCompasso-positivo.png)
 
-A Uol Compass é uma grande empresa de desenvolvimento, pertencente ao grupo UOL. 
+Olá, me chamo Pedro Vitor! Estudo Sistemas de Informação no IFBA, no campus de Vitória da Conquista - BA.
 
 Este repositório contêm algumas atividades realizadas durante meu estágio da UOL Compass.
+
+A Uol Compass é uma grande empresa de desenvolvimento, pertencente ao grupo UOL, e que realiza sazonalmente um projeto de bolsas de estudo. 
 
 ## Atividades Realizadas
 
