@@ -26,7 +26,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Aulas sobre Git e GitHub
 - Criação do Repositório
-- Aulas sobre comandos Linux e [atividade com comandos Linux](sprint1/ecommerce/sprint1.md)
+- Aulas sobre comandos Linux e [atividade com comandos Linux](sprint1/readme.md)
 <br/>
 
 <!--
