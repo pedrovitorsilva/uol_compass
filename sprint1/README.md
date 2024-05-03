@@ -26,7 +26,7 @@ A execução pode ser agendada com o comando **`crontab -e`.**
 
 Ao final do arquivo, adicione a seguinte linha:
 
-`27 15 * * 1-4 cd home/seu/endereco/do/arquivo ** ./processamento_de_vendas.sh > /dev/pts/0`
+`27 15 * * 1-4 cd home/seu/endereco/do/arquivo && ./processamento_de_vendas.sh > /dev/pts/0`
 
 
 Para permitir a execução do script, execute o seguinte comando:
