@@ -12,7 +12,7 @@ A Uol Compass é uma grande empresa de desenvolvimento, pertencente ao grupo UOL
 
 As atividades são divididas em Sprints, como mostrado abaixo:
 
-<details open>
+<details>
 <summary> 
     Sprint 1 🔗 
     <div style="display: inline-flex; align-items: center;">
@@ -45,12 +45,17 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 </details>
 
 
-<details>
+<details open>
 <summary> 
     Sprint 2 🔗 
     <div style="display: inline-flex; align-items: center;">
     <img height='20px' src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sql_icon_130152.png">
 </summary>
-  
+
+<br/>
+
+- Aulas sobre SQL
+- Modelos Relacionais(MER) e Modelos Dimensionais
+- [Atividades](sprint2/README.md)
 
 </details>
