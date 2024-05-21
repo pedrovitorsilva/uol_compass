@@ -45,7 +45,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 </details>
 
 
-<details open>
+<details>
 <summary> 
     Sprint 2 🔗 
     <div style="display: inline-flex; align-items: center;">
@@ -57,5 +57,20 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 - Aulas sobre SQL
 - Modelos Relacionais(MER) e Modelos Dimensionais
 - [Atividades](sprint2/README.md)
+
+</details>
+
+<details open>
+<summary> 
+    Sprint 3 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='20px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+</summary>
+
+<br/>
+
+- Aulas sobre Python
+- Jupyter Notebook e ambientes Collab com Python
+- [Atividades](sprint3/README.md)
 
 </details>
