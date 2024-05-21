@@ -26,7 +26,7 @@ FROM tb_locacao;
 
 -- Dimensões:
 
--- Tempo: Data e hora da locação
+-- Tempo: Data e hora da locação e entrega
 CREATE VIEW dim_tempo AS 
 WITH datas AS (
     SELECT dataHoraLocacao as data FROM tb_locacao 

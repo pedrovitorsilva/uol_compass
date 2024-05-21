@@ -6,7 +6,7 @@ idCliente       INT PRIMARY KEY,
 nomeCliente     VARCHAR(100) NOT NULL,
 cidadeCliente   VARCHAR(40) NOT NULL,
 estadoCliente   VARCHAR(40) NOT NULL,
-paisCliente     VARCHAR(40) NOT NULL,
+paisCliente     VARCHAR(40) NOT NULL
 );
 
 CREATE TABLE tb_carro (
