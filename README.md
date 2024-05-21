@@ -22,12 +22,9 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     </div>
 </summary>
 
-<br/>
-
 - Aulas sobre Git e GitHub
 - Criação do Repositório
 - Aulas sobre comandos Linux e [atividade com comandos Linux](sprint1/README.md)
-<br/>
 
 <!--
     .
@@ -52,11 +49,9 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <img height='20px' src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sql_icon_130152.png">
 </summary>
 
-<br/>
-
 - Aulas sobre SQL
 - Modelos Relacionais(MER) e Modelos Dimensionais
-- [Atividades](sprint2/README.md)
+- [Atividades com SQL e Modelagem](sprint2/README.md)
 
 </details>
 
@@ -66,8 +61,6 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <div style="display: inline-flex; align-items: center;">
     <img height='20px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
 </summary>
-
-<br/>
 
 - Aulas sobre Python
 - Jupyter Notebook e ambientes Collab com Python
