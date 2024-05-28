@@ -1,3 +1,7 @@
+import os
+# Copia dos exercícios do arquivo .ipynb
+# Exercícios 6 a 25
+
 # Exercício 6
 
 # Considere as duas listas abaixo:
@@ -113,8 +117,10 @@ print(remover_duplicados(lista))
 
 # Leia o arquivo person.json, faça o parsing e imprima seu conteúdo.
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+arquivo_json = os.path.join(script_dir, "./data/person.json")
 
-with open("./data/person.json") as file:
+with open(arquivo_json) as file:
     f = file.read()
     dados = json.loads(f)
     print(dados)
@@ -138,7 +144,10 @@ print(my_map(lista, lambda x: x**2))
 
 # Escreva um programa que lê o conteúdo do arquivo texto arquivo_texto.txt e imprime o seu conteúdo.
 
-with open("./data/arquivo_texto.txt") as file:
+script_dir = os.path.dirname(os.path.abspath(__file__))
+arquivo_txt = os.path.join(script_dir, './data/arquivo_texto.txt')
+
+with open(arquivo_txt) as file:
     dados = file.read().strip()
 
 print(dados)

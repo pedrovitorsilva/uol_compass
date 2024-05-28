@@ -1,7 +1,6 @@
 ## Copia dos exercícios do arquivo .ipynb
 ## Exercícios 1 ao 5
 
-
 ####### Exercício 1
 
 # Desenvolva um código em Python que crie variáveis para armazenar o nome e a idade de uma pessoa, 
