@@ -60,6 +60,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     Sprint 3 🔗 
     <div style="display: inline-flex; align-items: center;">
     <img height='20px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='20px' src=" https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png">
 </summary>
 
 - Aulas sobre Python
