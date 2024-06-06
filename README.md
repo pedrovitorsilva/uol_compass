@@ -6,7 +6,7 @@ Olá, me chamo Pedro Vitor! Estudo Sistemas de Informação no IFBA, no campus d
 
 Este repositório contêm algumas atividades realizadas durante meu estágio da UOL Compass.
 
-A Uol Compass é uma grande empresa de desenvolvimento, pertencente ao grupo UOL, e que realiza sazonalmente um projeto de bolsas de estudo. 
+A Uol Compass é uma grande empresa de desenvolvimento, pertencente ao grupo UOL, e que realiza sazonalmente um projeto de bolsas de estudo.
 
 ## Atividades Realizadas
 
@@ -29,18 +29,17 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <!--
     .
     ├── readme.md
-    ├── sprint1  
+    ├── sprint1
     │   ├── ecommerce                # Diretório com os arquivos da Sprint 1
     │   │   ├── vendas
     │   │   |   ├── backup           # Diretório com os arquivos de backup
     │   │   |    sprint1.md          # Informações do Exercício
-    │   │   |    relatorio_fina.txt  # Compilado dos Relatórios gerados na pasta ./backup   
-    │   │   ...                      # Demais arquivos do projeto  
+    │   │   |    relatorio_fina.txt  # Compilado dos Relatórios gerados na pasta ./backup
+    │   │   ...                      # Demais arquivos do projeto
     └── ...
 
 -->
 </details>
-
 
 <details>
 <summary> 
@@ -55,7 +54,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 </details>
 
-<details open>
+<details>
 <summary> 
     Sprint 3 🔗 
     <div style="display: inline-flex; align-items: center;">
@@ -66,5 +65,17 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 - Aulas sobre Python
 - Jupyter Notebook e ambientes Collab com Python
 - [Atividades](sprint3/README.md)
+
+</details>
+
+<details open>
+<summary> 
+    Sprint 4 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='20px' src="https://cdn.icon-icons.com/icons2/2415/PNG/512/docker_original_logo_icon_146556.png">
+</summary>
+
+- Aulas sobre Docker
+- [Atividades](sprint4/README.md)
 
 </details>
