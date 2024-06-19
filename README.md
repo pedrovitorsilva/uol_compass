@@ -72,7 +72,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 4 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='26px' src="https://cdn.icon-icons.com/icons2/2415/PNG/512/docker_original_logo_icon_146556.png">
+    <img height='26px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
 </summary>
 
 - Aulas sobre Docker
