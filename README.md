@@ -50,7 +50,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Aulas sobre SQL
 - Modelos Relacionais(MER) e Modelos Dimensionais
-- [Atividades com SQL e Modelagem](sprint2/README.md)
+- [Atividades com SQL, Modelageme Normalização](sprint2/README.md)
 
 </details>
 
@@ -64,18 +64,31 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Aulas sobre Python
 - Jupyter Notebook e ambientes Collab com Python
-- [Atividades](sprint3/README.md)
+- [Atividades com Pandas e Matplotlib](sprint3/README.md)
+
+</details>
+
+<details>
+<summary> 
+    Sprint 4 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='26px' src="https://cdn.icon-icons.com/icons2/2415/PNG/512/docker_original_logo_icon_146556.png">
+</summary>
+
+- Aulas sobre Docker
+- [Atividades com Docker](sprint4/README.md)
 
 </details>
 
 <details open>
 <summary> 
-    Sprint 4 🔗 
+    Sprint 5 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='20px' src="https://cdn.icon-icons.com/icons2/2415/PNG/512/docker_original_logo_icon_146556.png">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULf2JOHbvkPux8pEzQrkH70TVSpfgRMzgQA&s">
+    <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
 </summary>
 
-- Aulas sobre Docker
-- [Atividades](sprint4/README.md)
+- AWS
+- [Atividades com AWS](sprint5/README.md)
 
 </details>
