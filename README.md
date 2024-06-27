@@ -88,7 +88,8 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
 </summary>
 
-- AWS
-- [Atividades com AWS](sprint5/README.md)
+- Introdução a AWS (EC2, S3, IAM, VPC, dentre outros)
+- Contato inicial com o exame de certificação AWS Cloud
+- [Atividades com EC2, SQL e Boto3(Python)](sprint5/README.md)
 
 </details>
