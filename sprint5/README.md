@@ -34,3 +34,15 @@ A consulta que criei envolve exibir a **média de consumo, em 2022, de todas os 
 Para isso, utilizei boto3, python e sqlite, através dos arquivos `sprint5/desafio/desafio.py` e `sprint5/desafio/query.sql`.
 
 ## Evidências
+
+Diretório da Sprint 5 sem o arquivo CSV
+
+![Diretório da Sprint5 sem o csv](evidencias/imagem1.png)
+
+Diretório da Sprint 5 com o arquivo CSV, baixado durante a execução do código
+
+![Diretório da Sprint5 com o csv](evidencias/imagem2.png)
+
+Resultado da query - Média de Consumo em 2022
+
+![Diretório da Sprint5 com o csv](evidencias/imagem3.png)

@@ -2,6 +2,7 @@ import boto3
 import os
 import pandas as pd
 import sqlite3
+from tabulate import tabulate
 
 PROFILE = 'profile AdministratorAccess-339712984199'
 
@@ -55,4 +56,13 @@ if __name__ == '__main__':
 
     resultado = executar_query()
 
-    print(resultado.to_string())
+    print(
+        tabulate(
+            resultado,
+            headers=[
+                'Local',
+                'Média de Consumo (em m³)',
+                'Perfil de Consumo',
+                'Mês de Maior Consumo',
+                'Maior Consumo (em m³)'],
+            tablefmt='fancy_grid'))
