@@ -4,7 +4,7 @@ import pandas as pd
 import sqlite3
 from tabulate import tabulate
 
-PROFILE = 'profile AdministratorAccess-339712984199'
+PROFILE = '339712984199_AdministratorAccess'
 
 DIRETORIO_ATUAL = os.path.dirname(os.path.realpath(__file__))
 ARQUIVO = 'consumo-de-agua-2022-em-m3.csv'
@@ -13,7 +13,6 @@ ENDERECO_ARQUIVO = os.path.join(DIRETORIO_ATUAL, ARQUIVO)
 
 def iniciar_sessao_s3(profile):
     session = boto3.Session(profile_name=profile)
-
     return session.client('s3')
 
 
@@ -26,12 +25,12 @@ def executar_query():
 
     # Criando tabela ----------------------------------
 
-    # Read the CSV file into a DataFrame
+    # Criar Dataframe
     df = pd.read_csv(ENDERECO_ARQUIVO)
 
     conexao = sqlite3.connect(':memory:')
 
-    # Write the DataFrame to a SQLite table
+    # Criar tabela SQLite
     df.to_sql('df', conexao, index=False, if_exists='replace')
 
     # Lendo e Executando Query
@@ -42,7 +41,7 @@ def executar_query():
 
     resultado = pd.read_sql_query(query, conexao)
 
-    # Fechar coneção
+    # Fechar conexão
     conexao.close()
 
     return resultado
