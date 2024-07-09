@@ -6,14 +6,21 @@ O objetivo dessa sprint foi apresentar os diferentes recursos disponibilizados p
 
 No diretório `sprint6/certificados` estão os certificados da AWS referentes a essa sprint.
 
-## Desafio
+## Exercícios
 
-O desafio desta sprint envolveu o início do desafio final do programa de bolsas da Uol Compass. Aqui começamos a criação de um data lake através da ingestão de dados.
+No diretório `sprint6/exercicios` estão os exercícios dessa sprint.
 
-## Desafio Final, parte 1
-Nesta etapa, começamos a ingestão dos dados. Os arquivos disponibililizados serão armazenados em um bucket S3, através da biblioteca Python 'Boto3', dentro de um container docker. 
+Trabalhamos com S3, Athena e Lambda, exercitando o conteúdo visto anteriormente.
 
-## Tema
+![Lab S3](exercicios/lab1_s3.png)
+
+![Lab Athena](exercicios/lab2_athena_2.png)
+
+![Lab Lambda](exercicios/)
+
+## Desafio e Tema
+
+O desafio desta sprint envolveu o início do desafio final do programa de bolsas da Uol Compass. 
 
 O tema que planejo abordar é de "**Filmes de Ficção Científica nas décadas de 80 e 90 (1980 - 1999)**".
 
@@ -21,6 +28,10 @@ Perguntas que planejo responder:
 
 - Quais os filmes melhor avaliados?
 - Quais outros gêneros mais aparecem junto com esse tipo de filme?
+
+
+### Desafio Final, parte 1
+Nesta etapa, começamos a ingestão dos dados. Os arquivos disponibililizados serão armazenados em um bucket S3, através da biblioteca Python 'Boto3', dentro de um container docker. 
 
 ### Etapas
 
@@ -32,4 +43,8 @@ Perguntas que planejo responder:
 
 ## Evidências
 
-![](evidencias/imagem1.png)
+![S3 vazio](evidencias/imagem1.png)
+
+![Execução do container](evidencias/imagem2.png)
+
+![S3 agora possui conteúdo](evidencias/imagem3.png)

@@ -34,7 +34,7 @@ Executar um container temporário com `docker run etapa1:1.0`
 
 Sim, é possível reutilizar containers! Para isso, utilize o comando `docker ps -a` para ver todos os containers, incluindo os que não estão mais ativos.
 
-Em seguida, use `docker start (nome do container)` ou `docker start (id do container)`
+Em seguida, use `docker commit {nome do container} {nome da nova imagem}` e utilize normalmente a nova imagem.
 
 <br/>
 

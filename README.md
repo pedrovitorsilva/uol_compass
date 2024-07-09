@@ -86,6 +86,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <div style="display: inline-flex; align-items: center;">
     <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULf2JOHbvkPux8pEzQrkH70TVSpfgRMzgQA&s">
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
+    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
 </summary>
 
 - Introdução a AWS (EC2, S3, IAM, VPC, dentre outros)
@@ -98,10 +99,14 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 6 🔗 
     <div style="display: inline-flex; align-items: center;">
+    <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
+    <img height='23px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png">
+    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
 
 </summary>
 
-- Estudos sobre AWS
+- Estudos sobre AWS(S3, Athena, Lambda)
 - [Atividades](sprint6/README.md)
 
 </details>
