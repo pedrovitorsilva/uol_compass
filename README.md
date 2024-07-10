@@ -45,7 +45,8 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 2 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='20px' src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sql_icon_130152.png">
+    <img height='20px' src="https://cdn-icons-png.freepik.com/256/11955/11955289.png?semt=ais_hybrid">
+    </div>
 </summary>
 
 - Aulas sobre SQL
@@ -59,7 +60,9 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     Sprint 3 🔗 
     <div style="display: inline-flex; align-items: center;">
     <img height='20px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
-    <img height='20px' src=" https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png">
+    <img height='23px' src="https://pandas.pydata.org/static/img/favicon_white.ico">
+    <img height='20px' src="https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png">
+    </div>
 </summary>
 
 - Aulas sobre Python
@@ -72,7 +75,8 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 4 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='26px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
+    <img height='21px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
+    </div>
 </summary>
 
 - Aulas sobre Docker
@@ -87,6 +91,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULf2JOHbvkPux8pEzQrkH70TVSpfgRMzgQA&s">
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
     <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    </div>
 </summary>
 
 - Introdução a AWS (EC2, S3, IAM, VPC, dentre outros)
@@ -94,6 +99,10 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 - [Atividades com EC2, SQL e Boto3(Python)](sprint5/README.md)
 
 </details>
+
+### Desafio Final
+
+#### Inserção
 
 <details open>
 <summary> 
@@ -103,10 +112,12 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
     <img height='23px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png">
     <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='21px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
+    </div>
 
 </summary>
 
 - Estudos sobre AWS(S3, Athena, Lambda)
-- [Atividades](sprint6/README.md)
+- [Atividades com S3 e Docker](sprint6/README.md)
 
 </details>
