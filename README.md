@@ -51,7 +51,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Aulas sobre SQL
 - Modelos Relacionais(MER) e Modelos Dimensionais
-- [Atividades com SQL, Modelageme Normalização](sprint2/README.md)
+- [Atividades com SQL, Modelagem e Normalização](sprint2/README.md)
 
 </details>
 
