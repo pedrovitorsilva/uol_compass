@@ -5,7 +5,7 @@ import boto3
 
 load_dotenv(find_dotenv())  # Immportando credenciais do arquivo .env
 
-BUCKET = 'pedro-silva-sprint6'
+BUCKET = 'pedro-silva-desafio'
 DATALAKE = "datalake-pedro-silva"
 DATA_DE_PROCESSAMENTO = datetime.today().strftime('%Y/%m/%d')
 
@@ -54,7 +54,7 @@ def enviar_arquivo(diretorio, arquivo, nome):
         erro = int(e.response['Error']['Code'])
         if erro == 404:
             try:
-                s3.upload_file(arquivo, "pedro-silva-sprint6", diretorio)
+                s3.upload_file(arquivo, BUCKET, diretorio)
                 print(f"Arquivo CSV de {nome} enviado com sucesso no S3!")
             except Exception as e:
                 print(e)

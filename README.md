@@ -122,8 +122,6 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 </details>
 
-#### Inserção
-
 <details open>
 <summary> 
     Sprint 7 🔗 
@@ -134,7 +132,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 </summary>
 
-- Estudos sobre Spark
+- Estudos sobre Apache Spark e aplicações com PySpark
 - [Atividades com Spark](sprint7/README.md)
 
 </details>
