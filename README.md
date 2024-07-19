@@ -104,7 +104,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 #### Inserção
 
-<details open>
+<details>
 <summary> 
     Sprint 6 🔗 
     <div style="display: inline-flex; align-items: center;">
@@ -119,5 +119,22 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Estudos sobre AWS(S3, Athena, Lambda)
 - [Atividades com S3 e Docker](sprint6/README.md)
+
+</details>
+
+#### Inserção
+
+<details open>
+<summary> 
+    Sprint 7 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
+    </div>
+
+</summary>
+
+- Estudos sobre Spark
+- [Atividades com Spark](sprint7/README.md)
 
 </details>

@@ -9,8 +9,8 @@ BUCKET = 'pedro-silva-sprint6'
 DATALAKE = "datalake-pedro-silva"
 DATA_DE_PROCESSAMENTO = datetime.today().strftime('%Y/%m/%d')
 
-diretorio_filmes = f'{DATALAKE}/Local/CSV/movies/{DATA_DE_PROCESSAMENTO}/movies.csv'
-diretorio_series = f'{DATALAKE}/Local/CSV/series/{DATA_DE_PROCESSAMENTO}/series.csv'
+diretorio_filmes = f'{DATALAKE}/Raw/Local/CSV/movies/{DATA_DE_PROCESSAMENTO}/movies.csv'
+diretorio_series = f'{DATALAKE}/Raw/Local/CSV/series/{DATA_DE_PROCESSAMENTO}/series.csv'
 
 session = boto3.Session(
     aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
@@ -51,11 +51,10 @@ def enviar_arquivo(diretorio, arquivo, nome):
         print(f'Arquivo CSV de {nome} já existe no S3!')
 
     except Exception as e:
-        print(e)
         erro = int(e.response['Error']['Code'])
         if erro == 404:
             try:
-                # s3.upload_file(arquivo, "pedro-silva-sprint6", diretorio)
+                s3.upload_file(arquivo, "pedro-silva-sprint6", diretorio)
                 print(f"Arquivo CSV de {nome} enviado com sucesso no S3!")
             except Exception as e:
                 print(e)
