@@ -41,12 +41,13 @@ Trabalhamos com S3, Athena e Lambda, exercitando o conteúdo visto anteriormente
 
 O desafio desta sprint envolveu o início do desafio final do programa de bolsas da Uol Compass.
 
-O tema que planejo abordar é de "**Filmes de Ficção Científica nas décadas de 80 e 90 (1980 - 1999)**".
+O tema que planejo abordar é de "**Filmes de Ficção Científica mais populares nas décadas de 80 e 90 (1980 - 1999)**".
 
 Perguntas que planejo responder:
 
-- Quais os filmes melhor avaliados?
-- Quais outros gêneros mais aparecem junto com esse tipo de filme?
+- Quais os filmes melhor avaliados, ordenados por popularidade?
+- Quais outros gêneros mais aparecem junto com esse tipo de filme? E quais as palavras-chave mais comuns?
+
 
 ## Desafio Final, parte 1
 
