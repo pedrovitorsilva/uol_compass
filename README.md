@@ -128,11 +128,12 @@ As atividades são divididas em Sprints, como mostrado abaixo:
     <div style="display: inline-flex; align-items: center;">
     <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
     <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
+    <img height='23px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png">
     </div>
 
 </summary>
 
 - Estudos sobre Apache Spark e aplicações com PySpark
-- [Atividades com Spark](sprint7/README.md)
+- [Atividades com Python e Lambda](sprint7/README.md)
 
 </details>

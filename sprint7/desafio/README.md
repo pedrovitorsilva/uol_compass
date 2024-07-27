@@ -1,40 +1,32 @@
-mudanças(otimização) nas perguntas
-
-O desafio desta sprint envolveu o início do desafio final do programa de bolsas da Uol Compass.
-
-O tema que planejo abordar é de "**Filmes de Ficção Científica mais populares nas décadas de 80 e 90 (1980 - 1999)**".
-
-Perguntas que planejo responder:
-
-- Quais os filmes melhor avaliados, ordenados por popularidade?
-- Quais outros gêneros mais aparecem junto com esse tipo de filme? E quais as palavras-chave mais comuns?
-
-
-## Desafio Final, parte 1
+## Desafio Final, parte 2 (ingestão do JSON)
 
 Nesta etapa, começamos a ingestão dos dados. Os arquivos disponibililizados serão armazenados em um bucket S3, através da biblioteca Python 'Boto3', dentro de um container docker.
 
+Para enriquecer os dados coletados na sprint anterior (arquivos CSV), coletaremos informações da API do *The Movie Database (TMDB)*, através da execução de um código Python no ambiente AWS Lambda. 
+
+As informações irão compor um JSON, que será inserido no S3.
+
+
 ### Etapas
 
-#### Abrir o diretorio `./sprint6/desafio/` e executar os seguintes comandos:
+- Criar a imagem docker com o comando `docker build -t camada-sprint7 .`
 
-- Criar a imagem docker com o comando `docker build -t ingestao-sprint6 .`
+- Executar o container de modo interativo com o comando `docker run -it camada-sprint7 bash`
 
-- Executar o container de modo interativo com o comando `docker run -it ingestao-sprint6`
+- Instalar as dependências necessárias dentro da imagem
 
-## Evidências
+Comandos:
 
-<details>
+    bash-4.2# cd ~
+    bash-4.2# mkdir layer_dir
+    bash-4.2# cd layer_dir/
+    bash-4.2# mkdir python
+    bash-4.2# cd python/
+    bash-4.2# pip3 install requests boto3
 
-<summary> Clique Aqui 🔗</summary>
-<br/>
 
-|                   Bucket S3 Vazio                   |
-| :-------------------------------------------------: |
-|         ![S3 vazio](evidencias/imagem1.png)         |
-|                Execução do Container                |
-|  ![Execução do container](evidencias/imagem2.png)   |
-|            Bucket S3, Agora com Conteúdo            |
-| ![S3 agora possui conteúdo](evidencias/imagem3.png) |
+- Executar, en outro terminal, `docker cp <id do container>:/root/layer_dir/camada-sprint7 ./` para copiar a imagem.
 
-</details>
+- Subir a imagem .zip e o arquivo `lambda.py` para o AWS Lambda, realizar o deploy do código e testar sua execução.
+
+

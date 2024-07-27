@@ -6,7 +6,7 @@ import wget
 
 arquivo = 'README.md'
 # Atualizar link com token a cada uso (repositório privado)
-url = "https://raw.githubusercontent.com/pedrovitorsilva/uol_compass/main/README.md?token=GHSAT0AAAAAACS256EFM7WT4ZPJDHUJEVRIZU2WW5Q"
+url = "https://raw.githubusercontent.com/pedrovitorsilva/uol_compass/main/README.md?token={token}"
 
 wget.download(url, arquivo)
 
