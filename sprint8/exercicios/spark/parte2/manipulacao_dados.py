@@ -27,15 +27,21 @@ def imprimir(df, linhas=10):
     '''Exibe os dados e salva a tabela.'''
 
     # Exibir
-    df.show()
+    df.show(linhas)
 
     # Salvar
 
-    buffer = io.StringIO()
-    with contextlib.redirect_stdout(buffer):
-        df.show(linhas, truncate=False)
-    return buffer.getvalue()
+    data = df.limit(linhas).collect()
+    headers = [header.capitalize() for header in df.columns]
 
+    # Formatar Headers
+    headers = list(map(lambda x: x.replace('Anonascimento', 'Ano de Nascimento').replace(
+        'Geracao', 'Geração').replace('Pais', 'País'), headers))
+
+    markdown = tabulate(data, headers=headers,
+                              tablefmt="pipe", stralign="center")
+
+    return "\n" + markdown + "\n"
 
 
 # Inicializa Spark
@@ -48,42 +54,46 @@ spark.sparkContext.setLogLevel("ERROR")
 df_nomes = spark.read.csv("nomes_aleatorios.txt", sep=",",
                           inferSchema=True, header=False).toDF("nomes")
 
+# PERSISTIR O DATAFRAME
+df_nomes = df_nomes.cache()
+
 # Lista para armazenar as saídas
 prints = []
 
 # Etapa 1 e 2: Mostrar nomes
-prints.append("# Mostrar nomes iniciais\n" + imprimir(df_nomes))
+prints.append("## Mostrar nomes iniciais\n" + imprimir(df_nomes))
 
 # Etapa 3: Adicionar coluna escolaridade
 random_escolaridade_udf = udf(definir_escolaridade, StringType())
 df_nomes = df_nomes.withColumn("escolaridade", random_escolaridade_udf())
+df_nomes = df_nomes.cache()
 
-prints.append("# Adicionar coluna escolaridade\n" + imprimir(df_nomes))
+prints.append("## Adicionar coluna 'Escolaridade'\n" + imprimir(df_nomes))
 
 # Etapa 4: Adicionar coluna pais
 random_paises_udf = udf(definir_pais, StringType())
 df_nomes = df_nomes.withColumn("pais", random_paises_udf())
+df_nomes = df_nomes.cache()
 
-prints.append("# Adicionar coluna pais\n" + imprimir(df_nomes))
+prints.append("## Adicionar coluna 'País'\n" + imprimir(df_nomes))
 
 # Etapa 5: Adicionar coluna anoNascimento
 random_ano_udf = udf(definir_ano, IntegerType())
 df_nomes = df_nomes.withColumn("anoNascimento", random_ano_udf())
-
-prints.append("# Adicionar coluna anoNascimento\n" + imprimir(df_nomes))
-
-# Persistir o DataFrame
 df_nomes = df_nomes.cache()
+
+prints.append("## Adicionar coluna 'Ano de Nascimento'\n" + imprimir(df_nomes))
 
 # Etapa 6: Filtro por ano ( > 2000 ) com Select
 df_select = df_nomes.select('*').where(col("anoNascimento") > 2000)
 
-prints.append("# Filtro por ano ( > 2000 ) com Select\n" + imprimir(df_select))
+prints.append("## Filtro por ano ( > 2000 ) com Select\n" +
+              imprimir(df_select))
 
 # Etapa 7: Filtro por ano ( > 2000 ) com SQL
 df_nomes.createOrReplaceTempView("pessoas")
 
-prints.append("# Filtro por ano ( > 2000 ) com SQL\n" + imprimir(
+prints.append("## Filtro por ano ( > 2000 ) com SQL\n" + imprimir(
     spark.sql("SELECT * FROM pessoas WHERE anoNascimento > 2000 LIMIT 10")))
 
 # Etapa 8: Filtro por ano (entre 1980 e 1994) com Select
@@ -91,10 +101,10 @@ df_select = df_nomes.select(
     '*').where("anoNascimento >= 1980 AND anoNascimento <= 1994")
 
 prints.append(
-    "# Filtro por ano (entre 1980 e 1994) com Select\n" + imprimir(df_select))
+    "## Filtro por ano (entre 1980 e 1994) com Select\n" + imprimir(df_select))
 
 # Etapa 9: Filtro por ano (entre 1980 e 1994) com SQL
-prints.append("# Filtro por ano (entre 1980 e 1994) com SQL\n" + imprimir(
+prints.append("## Filtro por ano (entre 1980 e 1994) com SQL\n" + imprimir(
     spark.sql("SELECT * FROM pessoas WHERE anoNascimento BETWEEN 1980 AND 1994 LIMIT 10")))
 
 # Etapa 10: Agrupar por geração e país
@@ -114,7 +124,7 @@ GROUP BY geracao, pais
 ORDER BY pais, geracao
 ''')
 
-prints.append("# Agrupar por geração e país\n" +
+prints.append("## Agrupar por geração e país\n" +
               imprimir(df_resultado, linhas=100))
 
 # Salvar todas as saídas em um arquivo Markdown

@@ -17,16 +17,17 @@ No diretório `sprint8/exercicios` estão os exercícios dessa sprint.
 
 ## Exercícios Spark Batch
 
-[1]: ./exercicios/spark/parte1/exercicio_spark_python_resultados.png
-[2]: ./exercicios/spark/parte2/
+[1]: ./exercicios/spark/parte1/exercicio_spark_parte1.png
+[2]: ./exercicios/spark/parte2/exercicio_spark_parte2.png
 
 | Geração e Massa de Dados (clique para ver a imagem) |
 | :-------------------------------------------------: |
-|        [![Exercício Spark - Imagem 1][1]][1]         |
+|        [![Exercício Spark - Imagem 1][1]][1]        |
 
-| Geração e Massa de Dados (clique para ver a imagem) |
-| :-------------------------------------------------: |
-|        [![Exercício Spark - Imagem 2][2]][2]         |
+|                 Manipulação dos Dados                  |
+| :----------------------------------------------------: |
+|         [![Exercício Spark - Imagem 2][2]][2]          |
+| [Resultados](./exercicios/spark/parte2/resultados.md) |
 
 </details>
 
