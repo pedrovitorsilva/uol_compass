@@ -1,0 +1,15 @@
+id
+tituloPincipal
+tituloOriginal
+anoLancamento
+tempoMinutos
+genero -> Lista de valores separados por vírgula
+notaMedia
+numeroVotos
+generoArtista
+personagem
+nomeArtista
+anoNascimento
+anoFalecimento
+profissao
+titulosMaisConhecidos

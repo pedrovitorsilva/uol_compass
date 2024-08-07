@@ -39,7 +39,7 @@ def imprimir(df, linhas=10):
         'Geracao', 'Geração').replace('Pais', 'País'), headers))
 
     markdown = tabulate(data, headers=headers,
-                              tablefmt="pipe", stralign="center")
+                        tablefmt="pipe", stralign="center")
 
     return "\n" + markdown + "\n"
 

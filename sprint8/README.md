@@ -24,10 +24,10 @@ No diretório `sprint8/exercicios` estão os exercícios dessa sprint.
 | :-------------------------------------------------: |
 |        [![Exercício Spark - Imagem 1][1]][1]        |
 
-|                 Manipulação dos Dados                  |
-| :----------------------------------------------------: |
-|         [![Exercício Spark - Imagem 2][2]][2]          |
+|                 Manipulação dos Dados                 |
+| :---------------------------------------------------: |
 | [Resultados](./exercicios/spark/parte2/resultados.md) |
+|         [![Exercício Spark - Imagem 2][2]][2]         |
 
 </details>
 

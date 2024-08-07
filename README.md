@@ -122,7 +122,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 </details>
 
-<details open>
+<details>
 <summary> 
     Sprint 7 🔗 
     <div style="display: inline-flex; align-items: center;">
@@ -134,6 +134,24 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 </summary>
 
 - Estudos sobre Apache Spark e aplicações com PySpark
-- [Atividades com Python e Lambda](sprint7/README.md)
+- [Atividades com  AWS Lambda e Python](sprint7/README.md)
+
+</details>
+
+#### Processamento
+
+<details open>
+<summary> 
+    Sprint 8 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
+    <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
+    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    </div>
+
+</summary>
+
+- [Atividades com Spark, S3](sprint6/README.md)
 
 </details>
