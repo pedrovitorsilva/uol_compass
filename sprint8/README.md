@@ -26,7 +26,7 @@ No diretório `sprint8/exercicios` estão os exercícios dessa sprint.
 
 |                 Manipulação dos Dados                 |
 | :---------------------------------------------------: |
-| [Resultados](./exercicios/spark/parte2/resultados.md) |
+| [Clique para ver os Resultados](./exercicios/spark/parte2/resultados.md) |
 |         [![Exercício Spark - Imagem 2][2]][2]         |
 
 </details>
@@ -42,6 +42,20 @@ No diretório `sprint8/exercicios` estão os exercícios dessa sprint.
 <summary>Clique Aqui 🔗</summary>
 <br/>
 
-![](evidencias/imagem1.png)
+[3]: ./evidencias/evidencia1_jobs_glue.png
+[4]: ./evidencias/evidencia2_s3_pastas_criadas.png
+[5]: ./evidencias/evidencia3_json_particionado.png
+
+| Jobs com CSV e JSON (clique para ver a imagem) |
+| :--------------------------------------------: |
+|        [![Evidências- Imagem 1][3]][3]         |
+
+| Pastas criadas com sucesso no S3 (clique para ver a imagem) |
+| :---------------------------------------------------------: |
+|               [![Evidências- Imagem 2][4]][5]               |
+
+| Particionamento na criação das pastas com JSON (clique para ver a imagem) |
+| :-----------------------------------------------------------------------: |
+|                      [![Evidências- Imagem 3][5]][5]                      |
 
 </details>
