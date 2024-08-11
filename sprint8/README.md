@@ -4,7 +4,7 @@ O objetivo dessa sprint foi apresentar os diferentes recursos disponibilizados p
 
 ## Certificados
 
-No diretório `sprint8/certificados` estão os certificados da AWS referentes a essa sprint.
+No diretório `sprint8/certificados` ficariam os certificados da AWS referentes a essa sprint. Porém, não houveram certificados nesta sprint.
 
 ## Exercícios
 
