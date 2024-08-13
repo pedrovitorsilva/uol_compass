@@ -1,6 +1,6 @@
 #!/bin/bash
 # Código para criar modelo de pasta para as sprints
-# Sintaxe: sh modelo_sprint.sh {número da sprint}
+# Como usar (sintaxe): sh modelo_sprint.sh {número da sprint}
 
 NUMERO_SPRINT="$1" 
 
