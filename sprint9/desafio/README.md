@@ -14,6 +14,8 @@ Nessa etapa serão criadas as Tabelas e as Views que serão usadas na próxima s
 
 Essas etapas já foram feitas, então continuemos com os próximos passos.
 
-### Criando Job no AWS Glue
+### Banco de Dados Dimensional
+
+### Criando Job no AWS Glue e Criando Crawler
 
 [1]: ../evidencias/

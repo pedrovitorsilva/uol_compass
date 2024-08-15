@@ -1,0 +1,62 @@
+Table fato_filme {
+  id integer [primary key]
+  notaMedia float [not null]
+  numero_votos integer [not null]
+  popularidade integer [null] // JSON
+  orcamento integer [null] // JSON
+  bilheteria integer [null]  // JSON
+  duracao integer [not null]
+}
+
+Table dim_tempo {
+  id integer [primary key]
+  ano_lancamento integer
+}
+
+Table dim_genero {
+  id integer [primary key]
+  nome string 
+}
+
+Table bridge_filmes_genero { // Para relacionamentos muitos-p-muitos
+  id_genero integer 
+  id_filme integer
+  PRIMARY KEY (id_filme, id_genero)
+}
+
+Table dim_produtora {
+  id integer [primary key]
+  nome string
+}
+
+Table bridge_filmes_produtora{ // Para relacionamentos muitos-p-muitos
+  id_filme integer
+  id_produtora integer
+  PRIMARY KEY (id_filme, id_produtora)
+}
+
+Table dim_palavra_chave {
+  id integer [primary key]
+  nome string
+}
+
+Table bridge_filmes_palavra_chave{ // Para relacionamentos muitos-p-muitos
+  id_palavra_chave integer
+  id_filme integer
+  PRIMARY KEY (id_filme, id_palavra_chave)
+}
+
+
+Ref: "dim_tempo"."id" - "fato_filme"."id"
+
+Ref: "dim_produtora"."id" < "bridge_filmes_produtora"."id_produtora"
+
+Ref: "bridge_filmes_produtora"."id_filme" > "fato_filme"."id"
+
+Ref: "bridge_filmes_genero"."id_filme" > "fato_filme"."id"
+
+Ref: "dim_genero"."id" < "bridge_filmes_genero"."id_genero"
+
+Ref: "bridge_filmes_palavra_chave"."id_palavra_chave" > "dim_palavra_chave"."id"
+
+Ref: "fato_filme"."id" < "bridge_filmes_palavra_chave"."id_filme"

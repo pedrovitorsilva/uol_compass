@@ -2,18 +2,9 @@
 
 O objetivo dessa sprint foi compilar todos os conteúdos vistos na AWS e no decorrer do programa de bolsas, e exercitar os conteúdos aprendidos.
 
-## Certificados
+## Certificados e Exercícios
 
-No diretório `sprint9/certificados` estão os certificados da AWS referentes a essa sprint.
-
-## Exercícios
-
-<details>
-
-<summary>Clique Aqui 🔗</summary>
-<br/>
-
-</details>
+Nessa sprint, não houveram exercícios ou certificados externos. O foco do estudo foi no desafio final.
 
 ## Desafio
 
