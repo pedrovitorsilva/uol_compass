@@ -1,6 +1,8 @@
+// Feito com dbdiagram.io
 Table fato_filme {
   id integer [primary key]
-  notaMedia float [not null]
+  titulo varchar
+  nota_media float [not null]
   numero_votos integer [not null]
   popularidade integer [null] // JSON
   orcamento integer [null] // JSON
@@ -15,7 +17,7 @@ Table dim_tempo {
 
 Table dim_genero {
   id integer [primary key]
-  nome string 
+  nome varchar 
 }
 
 Table bridge_filmes_genero { // Para relacionamentos muitos-p-muitos
@@ -26,26 +28,25 @@ Table bridge_filmes_genero { // Para relacionamentos muitos-p-muitos
 
 Table dim_produtora {
   id integer [primary key]
-  nome string
+  nome varchar // JSON
 }
 
-Table bridge_filmes_produtora{ // Para relacionamentos muitos-p-muitos
+Table bridge_filmes_produtora { // Para relacionamentos muitos-p-muitos
   id_filme integer
   id_produtora integer
   PRIMARY KEY (id_filme, id_produtora)
 }
 
 Table dim_palavra_chave {
-  id integer [primary key]
-  nome string
+  id integer [primary key] 
+  nome varchar // JSON
 }
 
-Table bridge_filmes_palavra_chave{ // Para relacionamentos muitos-p-muitos
+Table bridge_filmes_palavra_chave { // Para relacionamentos muitos-p-muitos
   id_palavra_chave integer
   id_filme integer
   PRIMARY KEY (id_filme, id_palavra_chave)
 }
-
 
 Ref: "dim_tempo"."id" - "fato_filme"."id"
 
