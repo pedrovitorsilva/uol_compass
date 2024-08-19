@@ -74,7 +74,7 @@ def json_mais_recente(bucket: str, prefix: str):
         raise Exception(
             f"No JSON files found in {bucket}/{dia_mais_recente_prefixo}")
 
-    # Encontrar o arquivo CSV mais recente
+    # Encontrar o arquivo JSON mais recente
     arquivo_mais_recente = max(arquivo_json, key=lambda x: x['LastModified'])
 
     return f"s3://{bucket}/{arquivo_mais_recente['Key']}"
