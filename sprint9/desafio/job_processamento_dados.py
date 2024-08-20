@@ -95,12 +95,12 @@ df_completo = df_csv.join(
 df_fato_filme = df_completo.select(
     df_csv["id"].alias("id"),
     df_csv["titulo"].alias("titulo"),
-    df_csv["notaMedia"].alias("notaMedia"),
-    df_csv["numeroVotos"].alias("numero_votos"),
-    df_json["popularidade"].alias("popularidade"),
-    df_json["orcamento"].alias("orcamento"),
-    df_json["bilheteria"].alias("bilheteria"),
-    df_csv["tempoMinutos"].alias("duracao")
+    df_csv["notaMedia"].alias("nota_media").cast("float"),
+    df_csv["numeroVotos"].alias("numero_votos").cast("integer"),
+    df_json["popularidade"].alias("popularidade").cast("integer"),
+    df_json["orcamento"].alias("orcamento").cast("integer"),
+    df_json["bilheteria"].alias("bilheteria").cast("integer"),
+    df_csv["tempoMinutos"].alias("duracao").cast("integer")
 )
 
 df_fato_filme = df_fato_filme.distinct()
