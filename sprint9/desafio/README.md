@@ -16,6 +16,35 @@ Essas etapas já foram feitas, então continuemos com os próximos passos.
 
 ### Banco de Dados Dimensional
 
+Os dados foram estruturados, a partir dos arquivos Parquet, em um banco dimensional.
+
+#### Estrutura:
+
+- Fato: Filme
+- Dimensões: Tempo(Ano), Gênero, Produtoras, Palavras-chave
+
+|      Modelo Dimensional feito com o site DbDiagram.io       |
+| :---------------------------------------------------------: |
+| ![Modelo Dimensional](../evidencias/modelo_dimensional.png) |
+
 ### Criando Job no AWS Glue e Criando Crawler
 
-[1]: ../evidencias/
+O Job na AWS Glue realiza o processamento dos dados, une o CSV e o JSON em uma único arquivo, e cria as tabelas estruturadas, conforme o modelo acima.
+
+O Crawler é um recurso para, a partir dos arquivos, criar tabelas acessiveis ao AWS Athena.
+
+[1]: ../evidencias/evidencia1_job_glue.png
+[2]: ../evidencias/evidencia2_crawler_glue.png
+[3]: ../evidencias/evidencia3_dados_athena.png
+
+| Jobs com CSV e JSON (clique para ver a imagem) |
+| :--------------------------------------------: |
+|        [![Evidências- Imagem 1][1]][1]         |
+
+| Execução do Crawler (clique para ver a imagem) |
+| :--------------------------------------------: |
+|        [![Evidências- Imagem 2][2]][2]         |
+
+| Consulta dos dados no AWS Atena (clique para ver a imagem) |
+| :--------------------------------------------------------: |
+|              [![Evidências- Imagem 3][3]][3]               |

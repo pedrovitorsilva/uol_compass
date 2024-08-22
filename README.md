@@ -59,7 +59,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 3 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='20px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
     <img height='23px' src="https://pandas.pydata.org/static/img/favicon_white.ico">
     <img height='20px' src="https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png">
     </div>
@@ -88,9 +88,9 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 5 🔗 
     <div style="display: inline-flex; align-items: center;">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
     <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULf2JOHbvkPux8pEzQrkH70TVSpfgRMzgQA&s">
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
-    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
     </div>
 </summary>
 
@@ -108,16 +108,16 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 6 🔗 
     <div style="display: inline-flex; align-items: center;">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
+    <img height='21px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
     <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
     <img height='23px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png">
-    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
-    <img height='21px' src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg">
     </div>
 
 </summary>
 
-- Estudos sobre AWS(S3, Athena, Lambda)
+- Estudos sobre AWS (S3, Athena, Lambda)
 - [Atividades com S3 e Docker](sprint6/README.md)
 
 </details>
@@ -126,7 +126,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 <summary> 
     Sprint 7 🔗 
     <div style="display: inline-flex; align-items: center;">
-    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
     <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
     <img height='23px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png">
     </div>
@@ -134,24 +134,43 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 </summary>
 
 - Estudos sobre Apache Spark e aplicações com PySpark
-- [Atividades com  AWS Lambda e Python](sprint7/README.md)
+- [Atividades com AWS Lambda e Python](sprint7/README.md)
 
 </details>
 
 #### Processamento
 
-<details open>
+<details>
 <summary> 
     Sprint 8 🔗 
     <div style="display: inline-flex; align-items: center;">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
     <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
     <img height='23px' src="https://miro.medium.com/v2/0*YiaJuKj2rG6E3Y3W.png">
-    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
-    <img height='22px' src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkPeZrUHS09rT4woxVKYQ63G4lRhR3SzVOoQ&s">
     </div>
 
 </summary>
 
-- [Atividades com Spark, S3](sprint6/README.md)
+- Estudos sobre AWS(Glue e Athena) e Apache Spark
+- [Atividades com Spark, S3 e Glue](sprint8/README.md)
+
+</details>
+
+<details open>
+
+<summary> 
+    Sprint 9 🔗 
+    <div style="display: inline-flex; align-items: center;">
+    <img height='23px' src="https://www.svgrepo.com/show/376344/python.svg">
+    <img height='22px' src="https://w7.pngwing.com/pngs/1/687/png-transparent-apache-spark-apache-http-server-scala-apache-software-foundation-data-processing-others-miscellaneous-text-orange.png">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeWKPE7mcQbuDRcT7ysG3J-TD7d0EGye59Q&s">
+    <img height='23px' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkPeZrUHS09rT4woxVKYQ63G4lRhR3SzVOoQ&s">
+    </div>
+
+</summary>
+
+- Realização do Desafio Final
+- [Atividades com Spark, Glue e Athena](sprint9/README.md)
 
 </details>
