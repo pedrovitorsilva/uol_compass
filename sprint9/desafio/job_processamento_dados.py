@@ -18,7 +18,7 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-# # CONSTANTES
+# CONSTANTES
 
 # datalake-pedro-silva/Trusted/job_json/
 DIRETORIO_JSON = args['S3_JSON_INPUT_PATH']
