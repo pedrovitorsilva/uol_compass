@@ -177,6 +177,8 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 <details>
 
+#### Visualização
+
 <summary> 
     Sprint 10 🔗 
 </summary>
