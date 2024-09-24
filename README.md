@@ -157,7 +157,7 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 </details>
 
-<details open>
+<details>
 
 <summary> 
     Sprint 9 🔗 
@@ -172,5 +172,15 @@ As atividades são divididas em Sprints, como mostrado abaixo:
 
 - Realização do Desafio Final
 - [Atividades com Spark, Glue e Athena](sprint9/README.md)
+
+</details>
+
+<details>
+
+<summary> 
+    Sprint 10 🔗 
+</summary>
+
+- Criação do Dashboard final no AWS Quicksight
 
 </details>
